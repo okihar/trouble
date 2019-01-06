@@ -156,7 +156,7 @@ var analizeFunction = function(Obj){
                 var entities=[];
                 var returnObj={};
                 var checker = 1;
-                var counter = 0;
+                var counter = 0;あああああ
                 for(j=0;j<data.results.length;j++){
                     if(data.results[j].title == Obj.funcID){
                         for(k=0;k<data.results[j].enriched_text.entities.length;k++){
